@@ -1,0 +1,22 @@
+body{
+    background-image:  url(../IMG/nathan-trampe-GeDrP-52aJU-unsplash.jpg);
+    background-size:cover;
+    width: 99%;
+    height: 800px;
+}
+.logo{
+    margin-left: 20%;
+    margin-right: 12%;
+    height: 210px;
+    background-image: url(../IMG/WhatsApp\ Image\ 2021-09-12\ at\ 12.53.25\ PM.jpeg);
+    background-size:auto;
+}
+.login{
+    background-color: rgba(255, 255, 255, 0.541);
+    border-radius: 20px;
+    border: black solid 1px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+}

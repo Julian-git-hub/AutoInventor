@@ -1,0 +1,83 @@
+.imagen{
+    background-color: whitesmoke;
+    background-image:  url(../IMG/nathan-trampe-GeDrP-52aJU-unsplash.jpg);
+    background-size:cover;
+    width: 99%;
+    height: 800px;
+}
+.MENU{
+    display: flex;
+    /*border: solid black 1px;*/
+    width: 100%;
+}
+.logo{
+    /*border: solid black 1px;*/
+    width: 50%;
+}
+.menu{
+    width: 50%;
+    /*border: black solid 1px;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    /*text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    
+    font-size:larger;*/
+}
+ul, ol{
+    list-style: none;
+}
+.header li a{
+     background-color: black;
+     color: white;
+     text-decoration: none;
+     padding: 10px 15px;
+     display: block;
+}
+.header li a:hover{
+    background-color: grey;
+}
+.header > li {
+    float:left;
+}
+.header li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.header li:hover > ul{
+    display: block;
+}
+/*.menu a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}*/
+.formM{
+    border: black solid 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    text-align: center;
+}
+.tabla{
+    width: 100%;
+    border: 1px solid black;
+}
+.tabla th,td{
+    border: black solid 1px;
+}
+.tabla :hover{
+    background-color: grey;
+}
+.consultas{
+    padding-left: 10%;
+    padding-right: 10%;
+    /*border: black solid 1px;*/
+}
+.caja{
+    height: 500PX;
+    width: 100%;
+    /*border: black 1px solid;*/
+}
